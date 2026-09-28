@@ -133,7 +133,7 @@ Before running the project, install:
 Open Command Prompt or Git Bash:
 
 
-git clone https://github.com/YOUR-GITHUB-USERNAME/car-rental-system.git
+git clone https://github.com/shravanizende1582005-glitch/car-rental-system.git
 
 Move into the project directory:
 
