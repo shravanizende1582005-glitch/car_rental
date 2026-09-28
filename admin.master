@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"
+    CodeFile="admin.master.cs"
+    Inherits="admin_master" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Car Rental Admin Panel</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #eef2f7;
+        }
+
+        /* HEADER */
+        .header {
+            background: linear-gradient(135deg, #141e30, #243b55);
+            color: white;
+            padding: 18px 30px;
+            font-size: 20px;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            width: 230px;
+            height: 100vh;
+            background: #111827;
+            position: fixed;
+            top: 70px;
+            left: 0;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: #d1d5db;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background: #2563eb;
+            color: white;
+            padding-left: 25px;
+        }
+
+        /* CONTENT AREA */
+        .content {
+            margin-left: 230px;
+            padding: 30px;
+        }
+
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+
+<body>
+<form id="Form1" runat="server">
+
+    <div class="header">
+        🚗 Car Rental – Admin Panel
+    </div>
+
+    <div class="sidebar">
+        <a href="adminpanel.aspx">Dashboard</a>
+        <a href="addcar.aspx">Add Cars</a>
+        <a href="#">Manage Cars</a>
+        <a href="#">Bookings</a>
+        <a href="#">Users</a>
+        <a href="#">Logout</a>
+        <a href="LoginReport.aspx">Login Report</a>
+        <a href="BookingReport.aspx">Booking Report</a>
+        <a href="ContactReport.aspx">Contactus Report</a>
+        <a href="CarReport.aspx">Car Report</a>
+        <a href="FeedbackReport.aspx">Feedback Report</a>
+      
+        <a href="AdminFeedback.aspx">Feedback</a>
+    </div>
+
+    <div class="content">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build folders
+bin/
+obj/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Visual Studio cache
+*.cache
+
+# SQL Server local database files
+*.mdf
+*.ldf
+
+# Publish output
+Publish/
+
+# OS files
+.DS_Store
+Thumbs.db
