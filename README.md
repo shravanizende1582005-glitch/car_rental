@@ -363,9 +363,9 @@ Shravani Ajay Zende
 
 BCA Graduate | Aspiring Software Developer
 
-- GitHub: https://github.com/YOUR-GITHUB-USERNAME
-- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME
-- Email: YOUR-EMAIL@example.com
+- GitHub: https://github.com/shravanizende1582005-glitch
+- LinkedIn:  www.linkedin.com/in/shravani-zende-b28a80389
+- Email: shravanizende1582005@gmail.com
 
 > Replace the placeholder GitHub, LinkedIn, and email values with your actual links before publishing the repository.
 
